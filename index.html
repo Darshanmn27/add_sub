@@ -1,19 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    footer {
+      margin-top: 50px;
+      text-align: center;
+      padding: 15px;
+      background-color: #111;
+      color: #00ffcc;
+      font-family: 'Arial', sans-serif;
+      font-size: 18px;
+      border-top: 1px solid #444;
+    }
+  </style>
 </head>
 <body>
-    <div class="counter_container">
-        <button class="btn" onclick="decrerement() " >&#45;</button>
-            <div class="ctr_data" id="cur_data">ADD</div>
-            <button class ="btn" onclick="increment()">&#43;</button>
-        
-    </div>
-    
+  <div class="counter_container">
+    <button class="btn" onclick="decrement()">&#45;</button>
+    <div class="ctr_data" id="cur_data">ADD</div>
+    <button class="btn" onclick="increment()">&#43;</button>
+  </div>
+
+  <footer>
+    Developed by <strong>Darshan M N</strong>
+  </footer>
+
+  <script src="index.js"></script>
 </body>
-<script src="index.js"></script>
 </html>
